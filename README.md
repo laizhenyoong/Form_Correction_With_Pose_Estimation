@@ -76,7 +76,7 @@ _If you only want to try the website, look [here](./web/README.md)._
 1. Clone the repo and change directory to that folder
 
     ```sh
-    git clone https://github.com/NgoQuocBao1010/Exercise-Correction.git
+    git clone https://github.com/laizhenyoong/Form_Correction_With_Pose_Estimation.git
     ```
 
 1. Install all project dependencies
