@@ -36,7 +36,7 @@ Here are some detections of the exercises:
 
 1. For data processing and model training
 
-    - [Numpy](https://numpy.org/)s
+    - [Numpy](https://numpy.org/)
     - [Pandas](https://pandas.pydata.org/)
     - [Sklearn](https://scikit-learn.org/stable/)
     - [Keras](https://keras.io/)
