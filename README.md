@@ -18,7 +18,7 @@
 
 ## About The Project
 
-This project goal is to develop 4 machine learning models for 2 of the most home exercises **(Bicep Curl and Plank)** which each model can detect any form of incorrect movement while a person is performing a correspond exercise.
+This project goal is to develop 2 machine learning models for 2 of the most home exercises **(Bicep Curl and Plank)** which each model can detect any form of incorrect movement while a person is performing a correspond exercise.
 
 Here are some detections of the exercises:
 
