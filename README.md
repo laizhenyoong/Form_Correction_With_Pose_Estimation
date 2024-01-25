@@ -18,7 +18,7 @@
 
 ## About The Project
 
-This project goal is to develop 4 machine learning models for 4 of the most home exercises **(Bicep Curl, Plank, Squat and Lunge)** which each model can detect any form of incorrect movement while a person is performing a correspond exercise. In addition, a web application that utilize the trained models, will be built in other to analyze and provide feedbacks on workout videos.
+This project goal is to develop 4 machine learning models for 2 of the most home exercises **(Bicep Curl and Plank)** which each model can detect any form of incorrect movement while a person is performing a correspond exercise.
 
 Here are some detections of the exercises:
 
@@ -27,12 +27,6 @@ Here are some detections of the exercises:
 
 -   Basic Plank
 <p align="center"><img src="images/plank.gif" alt="Logo" width="70%"></p>
-
--   Basic Squat
-<p align="center"><img src="images/squat.gif" alt="Logo" width="70%"></p>
-
--   Lunge
-<p align="center"><img src="images/lunge.gif" alt="Logo" width="70%"></p>
 
 -   Models' evaluation results and website screenshots [here](#usage)
 
@@ -46,11 +40,6 @@ Here are some detections of the exercises:
     - [Pandas](https://pandas.pydata.org/)
     - [Sklearn](https://scikit-learn.org/stable/)
     - [Keras](https://keras.io/)
-
-1. For building website
-
-    - [Vue.js v3](https://vuejs.org/)
-    - [Django](https://www.djangoproject.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -82,22 +71,13 @@ This is an example of how you may give instructions on setting up the project lo
 
 ### Installation
 
-_If you only want to try the website, look [here](./web/README.md)._
-
 1. Clone the repo and change directory to that folder
 
     ```sh
     git clone https://github.com/laizhenyoong/Form_Correction_With_Pose_Estimation.git
     ```
 
-1. Install all project dependencies
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
 1. Folder **_[core](./core/README.md)_** is the code for data processing and model training.
-1. Folder **_[web](./web/README.md)_** is the code for website.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -107,7 +87,7 @@ _If you only want to try the website, look [here](./web/README.md)._
 
 ## Usage
 
-As the introduction indicated, there are 2 purposes for this project.
+As the introduction indicated, there are 1 purposes for this project.
 
 1. Model training **(describe in depth [here](core/README.md))**. Below are the evaluation results for each models.
 
@@ -117,45 +97,6 @@ As the introduction indicated, there are 2 purposes for this project.
     - [Plank](core/plank_model/README.md) - _all errors_: Confusion Matrix - ROC curve
       | <img align="center" alt="Plank evaluation" src="images/plank_eval.png" /> | <img align="center" alt="NgoQuocBao's Top Languages" src="images/plank_eval_2.png" /> |
       | ------------- | ------------- |
-    - [Basic Squat](core/squat_model/README.md) - _stage_: Confusion Matrix - ROC curve
-      | <img align="center" alt="Squat evaluation" src="images/squat_eval.png" /> | <img align="center" alt="NgoQuocBao's Top Languages" src="images/squat_eval_2.png" /> |
-      | ------------- | ------------- |
-    - [Lunge](core/lunge_model/README.md) - _knee over toe error_: Confusion Matrix - ROC curve
-      | <img align="center" alt="Lunge evaluation" src="images/lunge_eval.png" /> | <img align="center" alt="NgoQuocBao's Top Languages" src="images/lunge_eval_2.png" /> |
-      | ------------- | ------------- |
-
-1. Website for exercise detection. This web is for demonstration purpose of all the trained models, therefore, at the moment there are only 1 main features: Analyzing and giving feedbacks on user's exercise video.
- <p align="center"><img src="images/web_1.png" alt="Logo" width="70%"></p>
- <p align="center"><img src="images/web_2.png" alt="Logo" width="70%"></p>
- <p align="center"><img src="images/web_3.png" alt="Logo" width="70%"></p>
- <p align="center"><img src="images/web_4.png" alt="Logo" width="70%"></p>
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## License
-
-Distributed under the MIT License.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
 

@@ -5,12 +5,10 @@ To go in depth on each exercise, click the link below:
 
 -   [Bicep Curl](./bicep_model/README.md)
 -   [Plank](./plank_model/README.md)
--   [Basic Squat](./squat_model/README.md)
--   [Lunge](./lunge_model/README.md)
 
 ### 1. Simple error detection
 
-For some simple errors (for example, the feet placement error in squat), the detection method is either measuring the distance/angle between different joints during the exercise with the coordinate outputs from MediaPipe Pose.
+For some simple errors, the detection method is either measuring the distance/angle between different joints during the exercise with the coordinate outputs from MediaPipe Pose.
 
 -   **_Distance Calculation_**
     Assume there are 2 points with the following coordinates: Point 1 (x1,y1) and Point 2 (x2,y2), below is the formula to calculate the distance between 2 points.
@@ -50,9 +48,3 @@ There are 2 methods used in this thesis for model training. For each exercise, t
 
 2. Plank - _all errors_
  <p align="center"><img src="../images/plank_eval_3.png" alt="Logo" width="70%"></p>
-
-3. Basic Squat - _stage_
- <p align="center"><img src="../images/squat_eval_3.png" alt="Logo" width="70%"></p>
-
-4. Lunge - _knee over toe error_
- <p align="center"><img src="../images/lunge_eval_3.png" alt="Logo" width="70%"></p>
