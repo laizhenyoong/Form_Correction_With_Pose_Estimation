@@ -28,7 +28,7 @@ For some simple errors, the detection method is either measuring the distance/an
 
 #### 1. Pick important landmarks
 
-For each exercise, there will be different poses/body’s position, therefore it is essential to identify which parts (shoulder, hip, …) of a body are contribute to the exercise. The important landmarks identified for each exercise are utilized to extract body part’s position while exercising using MediaPipe.
+For each exercise, there will be different poses/body’s position, therefore it is essential to identify which parts (shoulder, hip, …) of a body are contributing to the exercise. The important landmarks identified for each exercise are utilized to extract body part’s position while exercising using MediaPipe.
 
 #### 2. Data Processing
 
