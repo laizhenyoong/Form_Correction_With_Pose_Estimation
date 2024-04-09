@@ -28,7 +28,7 @@ Here are some detections of the exercises:
 -   Basic Plank
 <p align="center"><img src="images/plank.gif" alt="Logo" width="70%"></p>
 
--   Models' evaluation results and website screenshots [here](#usage)
+-   Models' evaluation results and screenshots [here](#usage)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
